@@ -2,13 +2,12 @@ body{
     background-color:#14120B;
     color: white;
     margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 .navbar{
     display: flex;
     justify-content: space-around;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 50px;
-   
     align-items: center;
 }
 .nav-2 ul{
@@ -235,4 +234,54 @@ p{
   height: 320px;        
   border-radius: 8px;
   object-fit: cover;  
+}
+
+.title{
+    padding-left: 130px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.changelog-row{
+  display: flex;
+  gap: 16px;
+  width: 80%;
+  margin: 5px auto;
+}
+
+.log-card{
+  flex: 1;
+  background:#121212;
+  border:1px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 16px 18px;
+  min-height: 110px;
+}
+
+.version{
+  display: inline-block;
+  background:#1a1a1a;
+  border:1px solid #2a2a2a;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.date{
+  font-size: 13px;
+  color:#bfbfbf;
+  margin-bottom: 6px;
+}
+
+.log-card h3{
+  margin: 6px 0 0 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.changelog-link{
+  color:#ff6b00;
+  text-decoration:none;
+  font-size: 14px;
 }
