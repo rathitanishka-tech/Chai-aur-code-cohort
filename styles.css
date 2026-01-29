@@ -237,9 +237,10 @@ p{
 }
 
 .title{
-    padding-left: 130px;
+    padding-left: 150px;
   font-weight: 500;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .changelog-row{
@@ -251,11 +252,11 @@ p{
 
 .log-card{
   flex: 1;
-  background:#121212;
+  background:#1B1913;
   border:1px solid #1f1f1f;
-  border-radius: 12px;
+  border-radius: 6px;
   padding: 16px 18px;
-  min-height: 110px;
+
 }
 
 .version{
@@ -284,4 +285,13 @@ p{
   color:#ff6b00;
   text-decoration:none;
   font-size: 14px;
+  padding-left: 150px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.top-row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
 }
