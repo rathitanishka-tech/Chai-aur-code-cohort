@@ -45,5 +45,13 @@
 
 <br>
 
+### [cURL]([https://tanishkatech.hashnode.dev/getting-started-with-curl])
 
+<a href="https://tanishkatech.hashnode.dev/getting-started-with-curl">
+    <p align="center">
+        <img width="500px" alt="HTML and Emmet Basics" src="./assets/cURL.png">
+    </p>
+</a>
+
+<br>
 
