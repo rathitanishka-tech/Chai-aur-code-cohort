@@ -1,12 +1,12 @@
 # 🚀 Cursor-Inspired Landing Page — Assignment 2
 
-A modern, clean, product-style landing page recreated using **pure HTML and CSS**, inspired by Cursor’s official website. This project focuses on visual hierarchy, spacing, typography, and real-world layout patterns using Flexbox and Grid.
+A modern, clean, dark-themed landing page recreated using **HTML and CSS**, inspired by Cursor’s official website. This project focuses on real-world UI structure, spacing, typography, Flexbox, and Grid layouts while keeping the design minimal and professional.
 
 ---
 
 ## 🌐 Live Demo
 
-*(Replace with your Vercel link once deployed)*
+*(Replace with your Vercel link after deployment)*
 
 ```
 https://your-project-name.vercel.app
@@ -16,155 +16,110 @@ https://your-project-name.vercel.app
 
 ## 📸 Screenshots
 
-![Hero Section](./screenshots/hero.png)
-![Features Section](./screenshots/features.png)
-![Changelog Section](./screenshots/changelog.png)
+![Hero Section](./Output-screenshots/hero.png)
+![Features Section](./Output-screenshots/feature.png)
+![Testimonials](./Output-screenshots/Testimonials.png)
+![Feature Cards Section](./Output-screenshots/feat-cards.png)
+![Changelog Section](/assignment2/Output-screenshots/changelog.png)
+![Team/about](/assignment2/Output-screenshots/Team.png)
 ![Footer](./screenshots/footer.png)
-```
-
----
 
 ## 🧩 Sections Recreated
 
 ### 🧭 Navigation Bar
 
-* Brand logo on the left
-* Menu items in the center (Features, Enterprise, Pricing, Resources)
+* Logo + branding on the left
+* Menu items in the center
 * “Sign in” and “Download” buttons on the right
-* Built using **Flexbox** for alignment and spacing
-
----
+* Built using **Flexbox**
 
 ### 🚀 Hero Section
 
-* Large headline introducing the product
-* Primary CTA: **Download for Windows**
-* Centered product screenshot below the hero content
-
----
+* Large headline with strong typography
+* “Download for Windows” button with arrow icon
+* Centered product screenshot below the hero text
 
 ### 🤝 Trusted By Section
 
-* Trust statement: *“Trusted every day by millions of professional developers.”*
-* Row of company logos inside styled containers
-
----
+* Short trust statement
+* Horizontal row of company logos inside styled cards
 
 ### 💡 Feature Sections (3 Panels)
 
 Each panel includes:
 
-* Headline
-* Description
-* Highlighted link
-* Side-by-side image
-  Built with **Flexbox**, alternating left-right alignment.
-
----
+* Title + description
+* “Learn about…” link with arrow icon
+* Side-by-side image and text using **Flexbox**
 
 ### 🗣️ Testimonials (Cards Grid)
 
 * 3-column layout using **CSS Grid**
-* Each card contains:
-
-  * Quote
-  * Profile (avatar, name, role)
-* Subtle dark background with soft borders
-
----
+* Quote-style text cards
+* User profile with avatar, name, and role
 
 ### 🌌 “Stay on the Frontier” Section
 
 * Three equal-width cards in a single row
-* Each card includes:
-
-  * Heading
-  * Description
-  * Link
-  * Full-width image (same height for consistency)
-
----
+* Each card includes heading, description, link with arrow, and image
 
 ### 📝 Changelog Section
 
-* Four changelog cards in a horizontal row
-* Each card displays:
-
-  * Version badge + date in one line
-  * Update title
-* CTA link below: *“See what’s new in Cursor →”*
-
----
+* Four changelog cards in a row
+* Version badge + date aligned in one line
+* “See what’s new in Cursor” link with arrow icon
 
 ### 🔬 Research Team Panel
 
-* Split layout:
-
-  * Text on the left
-  * Image on the right
-
----
+* Text on the left, image on the right
+* “Join us” link with arrow icon
 
 ### 🎯 Final CTA Section
 
 * Centered heading: **“Try Cursor now.”**
-* Rounded download button beneath
-
----
+* Rounded download button below
 
 ### 📍 Footer
 
-Five columns:
-
-* Product
-* Resources
-* Company
-* Legal
-* Connect
-
-Plus a bottom bar with copyright information.
+* Five columns: Product, Resources, Company, Legal, Connect
+* Bottom bar with copyright text
+* Custom **segmented theme control + language pill** UI component
 
 ---
 
 ## 🖋️ Fonts Used
 
-| Section             | Font                                                             |
-| ------------------- | ---------------------------------------------------------------- |
-| Main UI             | `Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif` |
-| Headings & Features | `Segoe UI, Tahoma, Geneva, Verdana, sans-serif`                  |
-| Testimonial Cards   | `Verdana, Geneva, Tahoma, sans-serif`                            |
-| Some body text      | `Questrial, sans-serif`                                          |
+```
+Primary:
+Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif
+
+Secondary (cards):
+Verdana, Geneva, Tahoma, sans-serif
+
+Some headings/body text:
+Questrial, sans-serif
+```
 
 ---
 
-## 🎨 Color Palette
+## 🎨 Colors Used
 
 ### Backgrounds
 
 * Page: **#14120B**
-* Cards / Containers: **#1B1913**
-* Feature panels: **#21201B**
-* Footer: **#1B1913**
-
-### Borders
-
-* Cards: **#1E1E1E / #1f1f1f**
-* Version badge: **#2a2a2a**
-* Trusted logo boxes: **#21201b**
+* Cards / Panels: **#1B1913 / #21201B**
 
 ### Text
 
 * Primary: **#FFFFFF**
 * Secondary: **#C2C2C2 / #AEAEAE**
 * Muted: **#9A9A9A / #BFBFBF**
-* Footer headings: **#999896**
-* Accent links: **#FF6B00**
-* Feature links: **#BF4105**
+* Accent links: **#BF4105 / #FF6B00**
 
-### Buttons
+### Borders
 
-* Primary buttons: White background with black text
-* Secondary nav button: Dark background with light border
+* Cards: **#1E1E1E / #1f1f1f**
+* Pills & badges: **#2a2a2a**
 
 ---
 
@@ -173,16 +128,23 @@ Plus a bottom bar with copyright information.
 * **Flexbox** used for:
 
   * Navbar
-  * Feature sections
+  * Feature panels
+  * “Stay on the Frontier” row
   * Changelog row
   * Footer columns
 
 * **CSS Grid** used for:
 
-  * Testimonials (3-column layout)
+  * Testimonials section (3 columns)
 
-Most sections are centered within **85% width** for clean spacing.
+* Images made responsive using:
 
+```css
+img {
+  max-width: 100%;
+  height: auto;
+}
+```
 ---
 
 ## 📁 Project Structure
@@ -190,38 +152,7 @@ Most sections are centered within **85% width** for clean spacing.
 ```
 assignment2/
 │── index.html
-│── styles.css
-└── assets/
-   ├── Cursor_Icon_6.png
-   ├── Cursor_Logo_4.png
-   ├── productss.png
-   ├── trusted-by*.png
-   ├── feature*.png
-   ├── model.png
-   ├── indexing.png
-   ├── enterprise.png
-   └── avatars & team images
-```
+|── styles.css
+|── assets/
+|__ README.md
 
----
-
-## 💡 What I Learned
-
-* Building complex layouts with Flexbox & Grid
-* Maintaining consistent spacing and alignment
-* Choosing readable typography
-* Structuring assets properly for deployment
-* Fixing real-world CSS & path issues
-
----
-
-## 🔧 Future Improvements
-
-* Make it fully responsive
-* Add hover animations
-* Improve accessibility (ARIA labels)
-* Add smooth scroll navigation
-
----
-
-If you want, I can also add **badges, GitHub stats, or a contributor section** — just say the word.
