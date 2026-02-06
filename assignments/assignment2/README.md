@@ -4,7 +4,7 @@
 ## 🌐 Live Demo
 
 Vercel:
-[(https://chai-aur-code-cohort-pl9k8d0n5-tanishka-rathis-projects.vercel.app)]
+https://chai-aur-code-cohort-beryl.vercel.app/
 
 
 ## 📸 Screenshots
