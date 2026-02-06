@@ -1,18 +1,11 @@
 # 🚀 Cursor-Inspired Landing Page — Assignment 2
 
-A modern, clean, dark-themed landing page recreated using **HTML and CSS**, inspired by Cursor’s official website. This project focuses on real-world UI structure, spacing, typography, Flexbox, and Grid layouts while keeping the design minimal and professional.
-
----
 
 ## 🌐 Live Demo
 
-*(Replace with your Vercel link after deployment)*
+Vercel:
+[(https://chai-aur-code-cohort-pl9k8d0n5-tanishka-rathis-projects.vercel.app)]
 
-```
-https://your-project-name.vercel.app
-```
-
----
 
 ## 📸 Screenshots
 
@@ -20,9 +13,9 @@ https://your-project-name.vercel.app
 ![Features Section](./Output-screenshots/feature.png)
 ![Testimonials](./Output-screenshots/Testimonials.png)
 ![Feature Cards Section](./Output-screenshots/feat-cards.png)
-![Changelog Section](/assignment2/Output-screenshots/changelog.png)
-![Team/about](/assignment2/Output-screenshots/Team.png)
-![Footer](./screenshots/footer.png)
+![Changelog Section](./Output-screenshots/changelog.png)
+![Team/about](./Output-screenshots/Team.png)
+![Footer](./Output-screenshots/footer.png)
 
 ## 🧩 Sections Recreated
 
@@ -90,14 +83,7 @@ Each panel includes:
 ## 🖋️ Fonts Used
 
 ```
-Primary:
 Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif
-
-Secondary (cards):
-Verdana, Geneva, Tahoma, sans-serif
-
-Some headings/body text:
-Questrial, sans-serif
 ```
 
 ---
@@ -155,4 +141,5 @@ assignment2/
 |── styles.css
 |── assets/
 |__ README.md
+
 
