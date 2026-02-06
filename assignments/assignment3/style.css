@@ -205,3 +205,110 @@ body{
   max-width: 140px;
   height: auto;
 }
+.built-container{
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: -20;
+  text-align: center;
+  color: white;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+.built-container h2{
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.built-container p{
+  font-size: 16px;
+  color: #cbcbcb;
+  line-height: 1.6;
+}
+.two-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background: #08090A;
+}
+
+.card{
+  background: #08090A;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 32px;
+  color: white;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+.tag{
+  display: block;
+  color: #1aff9b;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
+}
+
+.card h3{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.card p{
+  color: #c3c3c3;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  font-weight: 400;
+
+}
+
+.card img{
+  width: 100%;
+  border-radius: 12px;
+}
+@media (max-width: 900px){
+  .two-cards{
+    grid-template-columns: 1fr;
+  }
+}
+.large-card{
+
+  background: #08090A;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 32px;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  width: 970px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.large-card h3{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #ffffff;
+}
+
+.large-card p{
+  color: #c3c3c3;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.large-card img{
+  max-width: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
