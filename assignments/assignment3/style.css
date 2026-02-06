@@ -4,7 +4,7 @@
 body{
     margin: 0;
      font-family: var(--font-primary);
-    background-image: url(./assets/bg-dark.svg);
+    background-image: url(/assignment3/assets/bg-dark.svg);
     background-size: 100% auto;
     background-position: center -100px;
     background-repeat: no-repeat;
