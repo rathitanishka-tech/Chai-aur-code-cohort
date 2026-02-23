@@ -1,16 +1,117 @@
-# React + Vite
+# Stopwatch & Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Live Demo
+🔗 https://chai-aur-code-cohort-phi.vercel.app/
 
-Currently, two official plugins are available:
+A clean and responsive Stopwatch & Timer application built using React and CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project focuses on React state management, time handling using hooks, reusable components, and a polished user interface.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Stopwatch functionality
+  - Start
+  - Pause
+  - Reset
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Timer functionality
+  - Custom time input
+  - Start
+  - Pause
+  - Reset
+
+- Responsive design
+- Clean and minimal UI
+- Reusable components
+- Smooth user interactions
+
+---
+
+## Tech Stack
+
+- React
+- JavaScript
+- CSS
+- Vite
+
+---
+
+## Project Structure
+
+```bash
+src
+│
+├── components
+│   ├── Stopwatch.jsx
+│   ├── Timer.jsx
+│   ├── TimeDisplay.jsx
+│   └── styles.css
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Getting Started
+
+Clone the project
+
+```bash
+git clone https://github.com/rathitanishka-tech/Chai-aur-code-cohort.git
+```
+
+Go to the project directory
+
+```bash
+cd Projects/stopwatch-timer-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Learning Highlights
+
+While building this project, I practiced:
+
+- React Hooks (`useState`, `useEffect`)
+- Managing intervals and timers
+- Component-based architecture
+- Responsive CSS layouts
+- UI state handling
+- Clean folder structure
+
+---
+
+## Screenshots
+
+<img src="./src/assets/stopwatch.png" alt="screenshot" width="400">
+
+---
+
+## Future Improvements
+
+- Sound alert when timer ends
+- Dark/light mode
+- Lap functionality
+- Milliseconds support
+- Local storage persistence
+
+---
+
+## Author
+
+Made by Tanishka
