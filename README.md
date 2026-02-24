@@ -23,7 +23,6 @@ Learning modern web development through the cohort by [ChaiCode](https://www.cha
 This repository contains everything I'm learning during the Web Development Cohort.
 
 I'll be uploading:
-- Notes
 - Practice code
 - Assignments
 - Mini projects
@@ -57,28 +56,12 @@ I'll be uploading:
 - Vercel
 - Deployment
 
----
-
-# 📂 Folder Structure
-
-```bash
-📦 web-dev-cohort
- ┣ 📂 notes
- ┣ 📂 assignments
- ┣ 📂 javascript
- ┣ 📂 react
- ┣ 📂 backend
- ┣ 📂 projects
- ┗ 📜 README.md
-```
-
----
 
 # 📌 Current Progress
 
-- [x] HTML & CSS Basics
-- [x] JavaScript Fundamentals
-- [x] DOM Manipulation
+- [ ] HTML & CSS Basics
+- [ ] JavaScript Fundamentals
+- [ ] DOM Manipulation
 - [ ] TypeScript
 - [ ] React.js
 - [ ] Backend Development
