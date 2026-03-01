@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f8c8dc; 
+  color: #ffffff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #460f31;
+  letter-spacing: 1px;
+}
+
+/* Board Layout */
+.board {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Columns */
+.column {
+  background: #ffe4ec;
+  padding: 15px;
+  border-radius: 14px;
+  width: 300px;
+  min-height: 420px;
+  border: 1px solid #f4b6c2;
+  transition: 0.2s;
+}
+
+.column:hover {
+  border-color: #ffb6c1;
+}
+
+.column h2 {
+  margin-bottom: 12px;
+  color: #5c2a3c; 
+}
+
+/* Tasks Container */
+.tasks {
+  min-height: 200px;
+}
+
+/* Task Card */
+.task {
+  background: #f4b6c2; 
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: grab;
+  transition: 0.2s;
+  border: 1px solid transparent;
+}
+
+.task:hover {
+  border-color: #ff69b4;
+  transform: translateY(-2px);
+}
+
+.task.dragging {
+  opacity: 0.5;
+  color: rgb(255, 0, 166);
+}
+
+/* Add Button */
+.add-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #ff9eb5; 
+  color: #4a1f2d;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  background: #ff6f91;
+  transform: scale(1.03);
+}
+
+
+.column.drag-over {
+  border: 2px dashed #ff9eb5;
+}
